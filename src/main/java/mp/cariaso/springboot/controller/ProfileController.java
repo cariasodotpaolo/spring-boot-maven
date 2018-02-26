@@ -19,12 +19,9 @@ public class ProfileController {
     @RequestMapping(path = "/active", method = {RequestMethod.GET})
     public ResponseEntity<?> getActiveProfile(HttpServletRequest request) {
 
-        ResponseEntity<String> response;
-
         String responseBody = String.format("Spring Active Profile: %s", environment.getActiveProfiles());
 
-        response = new ResponseEntity<String>(responseBody, HttpStatus.OK);
+        return new ResponseEntity<String>(responseBody, HttpStatus.OK);
 
-        return response;
     }
 }
