@@ -168,7 +168,7 @@
         <profile>
             <id>uat</id>
             <properties>
-                <build.profile.id>qat</build.profile.id>
+                <build.profile.id>uat</build.profile.id>
             </properties>
         </profile>
         <profile>
