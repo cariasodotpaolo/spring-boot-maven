@@ -30,5 +30,5 @@ DEV profile - http://localhost:8080/spring-boot-maven-DEV/profiles/active
 UAT profile - http://localhost:8080/spring-boot-maven-UAT/profiles/active
 
 Note:
-- the context path name changes based on profile used to illustrate property value change.
+- the context root name changes based on profile used to illustrate property value change.
 - the profile name displayed by the browser is being retrieved using Spring's Environment bean getActiveProfiles() method.
