@@ -4,14 +4,19 @@ Configuring Maven and SpringBoot profiles
 How to check build profile:
 
 1. Build the application
+
    > mvn clean install -P local | dev | uat (default is local)
 
 2. check the target folder:
+
    - the profile name is appended to WAR file name
    - check the application.properties file in classpath resource. properties should reflect the profile used
 
 3. See if the Spring Boot application runs:
+
    > mvn spring-boot:run -P local | dev | uat (default is local)
+
+   Note: spring-boot maven plugin will do a clean build
 
 4. Ctrl + C to stop
 
