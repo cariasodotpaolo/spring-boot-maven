@@ -11,11 +11,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;
 import org.springframework.context.annotation.Bean;
-import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.WebApplicationInitializer;
 
 @SpringBootApplication
-@EnableAsync
 public class SpringBootMavenApplication implements WebApplicationInitializer {
 
     private static final Logger logger = LoggerFactory.getLogger(SpringBootMavenApplication.class);
