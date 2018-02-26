@@ -16,6 +16,7 @@ import org.springframework.web.WebApplicationInitializer;
 @SpringBootApplication
 public class SpringBootMavenApplication implements WebApplicationInitializer {
 
+
     private static final Logger logger = LoggerFactory.getLogger(SpringBootMavenApplication.class);
 
     public static void main(String[] args) {
