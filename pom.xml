@@ -144,7 +144,7 @@
             </resource>
         </resources>
         <filters>
-            <filter>src/main/resources/profiles/${build.profile.id}/config-${build.profile.id}.properties</filter>
+            <filter>src/main/resources/application-${build.profile.id}.properties</filter>
         </filters>
     </build>
 
